@@ -10,9 +10,6 @@ hero:
     - theme: brand
       text: Перейти в документацию
       link: /docs
-    # - theme: alt
-    #   text: Как донатить братьям
-    #   link: /api-examples
 
 features:
   - title: Core знания

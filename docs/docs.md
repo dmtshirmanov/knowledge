@@ -7,7 +7,7 @@ const list = reactNative.items.filter((item) => item.link !== '/reactnative/');
 
 # Дорожная карта
 
-## [ReactNative](/reactnative)
+## ReactNative
 
 <ul>
     <li v-for="li in list">
