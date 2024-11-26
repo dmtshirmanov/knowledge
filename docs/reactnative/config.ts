@@ -8,28 +8,7 @@ enum ReactNativePaths {
 const CORE = {
   text: "Базовые элементы",
   link: ReactNativePaths.CORE,
-  items: [
-    // {
-    //   text: "View",
-    //   link: `${ReactNativePaths.CORE}/view`
-    // },
-    // {
-    //   text: "Text",
-    //   link: `${ReactNativePaths.CORE}/text`
-    // },
-    // {
-    //   text: "Image",
-    //   link: `${ReactNativePaths.CORE}/image`
-    // },
-    // {
-    //   text: "ScrollView",
-    //   link: `${ReactNativePaths.CORE}/scrollView`
-    // },
-    // {
-    //   text: "TextInput",
-    //   link: `${ReactNativePaths.CORE}/textInput`
-    // },
-  ],
+  items: [],
 };
 
 const items = [CORE];
@@ -38,4 +17,10 @@ export const reactNative = {
   text: "ReactNative",
   link: ReactNativePaths.BASE,
   items,
+  cards: [
+    {
+      question: "Что такое ReactNative?",
+      answer: "Фреймворк для написания нативных приложений для iOS и Android",
+    },
+  ],
 };
